@@ -1,0 +1,156 @@
+div.group.stock.last
+{
+  padding-right: 10px;
+}
+.stock .thumb
+{
+  float: left;
+  width: 220px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.stock .thumb:hover
+{
+  background-color:#DEF0F7;
+  border-radius: 2px;
+}
+.stock .thumb .title
+{
+  overflow: hidden;
+  margin-bottom: 0px;
+  height: 16px;
+}
+.stock .thumb .image_container
+{
+  position: relative;
+}
+.stock .thumb .image_container .image
+{
+  width: 217px;
+  height: 163px;
+  border: solid 1px #11822d;;
+  display: inline-block;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+.stock .thumb .image_container .imagereduced
+{
+  position: absolute; 
+  top: 0px; 
+  right: 0px; 
+  width: 100px;
+  height: 75px;
+  border: solid 0px;
+  display: inline-block;
+  z-index: 3;
+}
+.stock .thumb .image_container .imagehidden 
+{
+  display: none;
+  visibility: hidden;
+}
+.stock .thumb .image_container .link
+{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-image: url('Images/navigate_right_inverse_transparent.png');
+}
+.stock .thumb:hover .image_container .link
+{
+  display: inline;
+  background-image: url('Images/navigate_right_inverse.png');
+}
+.stock .thumb .image_container .link:hover
+{
+  background-image: url('Images/navigate_right_inverse_hover.png');
+}
+.stock .thumb .thumb_info
+{
+  margin-top: 5px;
+  width: 100%;
+}
+.stock .thumb .thumb_info .label
+{
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-left: 5px;
+}
+.stock .thumb .thumb_info .info
+{
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 5px;
+}
+.stock .thumb .thumb_info .reduced 
+{
+  color: #11822d;
+}
+.stock .thumb .thumb_info .oldprice
+{
+  text-decoration: line-through;
+  font-weight: normal;
+  color: #666666;
+}
+.stock .thumb .thumb_info .small
+{
+  font-size: 9px;
+}
+
+.stock .pager
+{
+  margin-top: 5px;
+  float: right;
+}
+.stock .pager.top
+{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  float: right;
+}
+.stock .pager .pager_link
+{
+  color: #FFFFFF;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 20px;
+  line-height: 20px;
+  background-color:#11822d;;
+  background-repeat: repeat-x;
+  background-image: url('');
+  display: inline-block;
+  margin-right: 3px;
+  border-radius: 2px;
+}
+.stock .pager .pager_link:hover
+{
+  background-color: Transparent;
+  background-image: url('Images/pager_link.png');
+}
+.stock .pager .pager_link.aspNetDisabled
+{
+  background-color: Transparent; 
+  background-image: none;
+  color: #CCCCCC;
+}
+.stock .pager .pager_link.aspNetDisabled:hover
+{
+  color: #CCCCCC;
+}
+.stock .pager .pager_link.pager_current
+{
+  background-color: Transparent;
+  background-image: url('Images/pager_link.png');
+}
+/* Colors */
+/* Light Blue       #00AEEF */
+/* Dark Blue        #104E85 */
+/* BG Dark Blue     #12538D */
+/* BG Light Blue    #DEF0F7 */
+/* Dark Grey        #666666 */
+/* Black            #000000 */
+/* White            #FFFFFF */
+/* Validation       #EA5200 */

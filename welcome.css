@@ -1,0 +1,244 @@
+/* Welcome */
+/* Carousel */
+.carousel {
+}
+
+  .carousel .carousel_data {
+    width: 460px;
+    height: 199px; /*background-color: Red;*/
+  }
+
+  .carousel .carousel_items {
+    width: 935px;
+    height: 85px;
+    background-color: #b7f4ba;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    padding-right: 15px;
+  }
+
+    .carousel .carousel_items .slider_container {
+      width: 460px;
+      height: 100%;
+      float: right;
+    }
+
+      .carousel .carousel_items .slider_container .slider {
+        width: 115px;
+        height: 100%;
+        background-color: #4ad47f;
+      }
+
+      .carousel .carousel_items .slider_container .slider_items {
+        width: 460px;
+        height: 100%;
+        margin-top: -85px;
+      }
+
+      .carousel .carousel_items .slider_container .slider_item {
+        float: left;
+        margin: 5px;
+        width: 105px;
+      }
+
+        .carousel .carousel_items .slider_container .slider_item img {
+          width: 105px;
+          height: 75px;
+        }
+
+    .carousel .carousel_items .item {
+      width: 100px;
+    }
+
+  .carousel .carousel_image {
+    width: 424px;
+    height: 318px;
+    /*margin-left: 20px;*/
+    margin-top: -303px;
+    border: solid 1px #128d45;
+    padding: 5px;
+    background-color: #FFFFFF;
+    position: relative;
+  }
+
+    .carousel .carousel_image .image {
+      position: absolute;
+      top: 5px;
+    }
+
+      .carousel .carousel_image .image img {
+        width: 424px;
+        height: 318px;
+      }
+
+    .carousel .carousel_image .more_information {
+      position: absolute;
+      bottom: 10px;
+      right: 40px;
+      cursor: pointer;
+    }
+
+  .carousel .carousel_data {
+    position: relative;
+  }
+
+    .carousel .carousel_data .data_item {
+      position: absolute;
+      width: 100%;
+    }
+
+      .carousel .carousel_data .data_item .label {
+        width: 150px;
+      }
+
+/* Action */
+.action {
+  width: 100%;
+}
+
+  .action .photos {
+  }
+
+  .action .images {
+    position: relative;
+    width: 312px;
+    height: 236px;
+  }
+
+    .action .images .image {
+      border: solid 1px #12538D;
+      background-color: #FFFFFF;
+      padding: 5px;
+      position: absolute;
+    }
+
+      .action .images .image img {
+        width: 300px;
+        height: 224px;
+      }
+
+  .action .slider {
+    margin-left: 5px;
+    height: 78px;
+    width: 101px;
+    background-color: #12538D;
+    margin-top: 0px;
+  }
+
+  .action .slider_items {
+    width: 101px;
+    height: 224px;
+    margin-left: -101px;
+  }
+
+    .action .slider_items .slider_image img {
+      margin: 5px;
+      height: 68px;
+      width: 91px;
+    }
+
+  .action .details {
+    width: 470px;
+    height: 235px;
+    position: relative;
+  }
+
+    .action .details .details_header {
+      text-align: center;
+    }
+
+    .action .details h1 {
+      margin-bottom: 0px;
+    }
+
+    .action .details .date {
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    .action .details .label {
+      width: 150px;
+    }
+
+    .action .details .price {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      margin-bottom: 0px;
+    }
+
+    .action .details .more_information {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+
+    .action .details .oldprice {
+      color: #104e85;
+      font-weight: normal;
+      text-decoration: line-through;
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      margin-bottom: 0px;
+    }
+
+    .action .details .newprice {
+      position: absolute;
+      bottom: 0px;
+      left: 110px;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+
+/* New */
+.new {
+}
+
+  .new .items {
+  }
+
+    .new .items .item {
+      cursor: pointer;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+      .new .items .item:hover {
+        background-color: #DEF0F7;
+      }
+
+    .new .items .seperator {
+      border-bottom: solid 1px #DEF0F7;
+    }
+
+    .new .items .item .title {
+      width: 160px;
+    }
+
+    .new .items .item .next {
+    }
+
+    .new .items .item img {
+      overflow: hidden;
+      height: 48px;
+      width: 64px;
+      border: solid 1px #128d45;
+      margin-right: 10px;
+    }
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Colors */
+/* Light Blue       #00AEEF */
+/* Dark Blue        #104E85 */
+/* BG Dark Blue     #12538D */
+/* BG Light Blue    #DEF0F7 */
+/* Dark Grey        #666666 */
+/* Black            #000000 */
+/* White            #FFFFFF */
+/* Validation       #EA5200 */

@@ -1,0 +1,19 @@
+/* Privacy */
+.privacy
+{
+}
+.privacy ol, .privacy ul
+{ 
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Colors */
+/* Light Blue       #00AEEF */
+/* Dark Blue        #104E85 */
+/* BG Dark Blue     #12538D */
+/* BG Light Blue    #DEF0F7 */
+/* Dark Grey        #666666 */
+/* Black            #000000 */
+/* White            #FFFFFF */
+/* Validation       #EA5200 */
